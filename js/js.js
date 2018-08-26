@@ -23,7 +23,7 @@ var wrap = document.getElementById('wrap');
        //this.index = now;                         //反过来写就不对了大兄弟
        //content.style.left = -400 * this.index + 'px';
         startMove(content, {
-                       left: -428 * now, //你还真别说，json格式就是这么写的
+                       left: -370 * now, //你还真别说，json格式就是这么写的
          });
      }
 

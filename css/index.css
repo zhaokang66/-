@@ -16,13 +16,13 @@ nav a:visited{
 	color: white;
 }
 nav a:hover{
-	color: red;
-}
+	color: #4169E1;
+}/*
 a:active{
 	color: orange;
-}
+}*/
 .con_head a:visited{
-	color: #000080;
+	color: #00008B;
 }
 .container{
 	min-width: 970px;
@@ -58,16 +58,16 @@ header{
 .header_bc p{
 	color: white;
 	line-height: 153px;
-	font-size: 35px;
+	font-size: 30px;
 	font-family: "STFangsong";
-	/*font-weight: bold;*/
+	font-weight: bold;
 }
 .header_pc{
 	width: 15%;
 	float: right;
 	position: absolute;
 	right: 10px;
-	bottom: -20px;
+	bottom: -30px;
 }
 .header_title{
 	position: absolute;
@@ -99,7 +99,8 @@ nav ul li{
 	width: 33%;
 	float: left;
 	margin-right: 10px;
-	border: 1px solid blue;
+	border: 1px solid #778899;
+	height: 250px;
 }
 .title{
 	float: left;
@@ -108,14 +109,18 @@ nav ul li{
 }
 .con_head{
 	width: 100%;
-	background-color:	#A9A9A9;
+	background: -webkit-linear-gradient(#6495ED	, #696969); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(red, blue); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(red, blue); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#696969	, #DCDCDC); /* 标准的语法（必须放在最后） */
 	height: 30px;
 }
 .more{
 	float: right;
 	display: block;
 	margin-right: 20px;
-	margin-bottom: 10px;
+	font-weight: bold;
+	clear: right;
 }
 .announcement ol {
 	font-size: 14px;
@@ -126,15 +131,16 @@ nav ul li{
 }
 
 .broadcast{
-	width: 44%;
-	height: 270px;
+	width: 38%;
+	height: 250px;
 	float: left;
+	border: 1px solid #778899;
 }
 
 
 .rotation{
   width: 100%;
-  height: 270px;
+  height: 230px;
   float: left;
   margin: -5px auto 10px auto;
   position: relative;
@@ -159,8 +165,8 @@ nav ul li{
 }
 #wrap  img {
   vertical-align: top;
-  width: 428px;
-  height: 230px;
+  width: 370px;
+  height: 200px;
 }
 
 #content {
@@ -175,7 +181,7 @@ nav ul li{
 #tips {
   position: absolute;
   right: 0px;
-  bottom: 40px;
+  bottom: 30px;
 }
 #wrap p{
   text-align: center;
@@ -198,15 +204,15 @@ nav ul li{
 
 
 .advisory{
-	width: 18%;
-	/*height: 200px;*/
+	width: 24%;
+	height: 250px;
 	float: left;
-	clear: right;
-	margin-left: 35px;
+	margin-left: 32px;
+	border: 1px solid #778899;
 }
 .advisory ul{
 	list-style: none;
-	font-size: 20px;
+	font-size: 16px;
 }
 .advisory ul li{
 	margin-bottom: 10px; 
@@ -217,11 +223,12 @@ nav ul li{
 }
 .agreement{
 	width: 30%;
-	/*height: 200px;*/
+	height: 206px;
 	/*background-color: orange;*/
 	float: left;
-	margin-top: -20px;
-	border: 1px solid grey;
+	margin-top: 20px;
+	border: 1px solid #778899;
+	clear: both;
 }
 .agreement ol{
 	margin-left: 20px;
@@ -230,25 +237,27 @@ nav ul li{
 	margin-bottom: 10px;
 }
 .nav{
-	width: 30%;
+	width: 24%;
 	float: left;
-	border: 1px solid blue;
-	margin: 35px 0px 10px 35px;
+	border: 1px solid #778899;
+	margin: 20px 0px 10px 35px;
+	height: 206px;
 }
 .nav ul{
 	list-style: none;
-	margin-left: 30px;
+	margin-left: 10px;
 }
 .nav ul li{
 	margin-bottom: 5px;
 
 }
 .statement{
-	width: 32%;
+	width: 38%;
 	float: left;
 	clear: right;
-	margin: 33px 0px 5px 28px;
-	border: 1px solid blue;
+	margin: 20px 0px 5px 28px;
+	border: 1px solid #778899;
+	height: 206px;
 }
 .statement ul{
 	list-style: none;
@@ -264,11 +273,11 @@ nav ul li{
 
 .article{
 	width: 30%;
-	/*height: 200px;*/
+	height: 176px;
 	float: left;
-	border: 1px solid blue;
+	border: 1px solid #778899;
 	clear: left;
-	margin-top: -70px;
+	margin-top: 10px;
 }
 .article ul{
 	list-style: none;
@@ -281,10 +290,11 @@ nav ul li{
 
 .dynamic{
 	width: 30%;
-	/*height: 200px;*/
+	height: 176px;
 	float: left;
-	border: 1px solid blue;
+	border: 1px solid #778899;
 	margin-left: 33px;
+	margin-top: 10px;
 }
 .dynamic ul{
 	list-style: none;
@@ -295,10 +305,10 @@ nav ul li{
 }
 .friend_link{
 	width: 32%;
-	height: 180px;
+	height: 176px;
 	float: left;
-	margin: -15px 0px 0px 26px;
-	border: 1px solid yellow;
+	margin: 10px 0px 0px 26px;
+	border: 1px solid #778899;
 }
 .link_head{
 	width: 5%;
