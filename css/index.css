@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
+	font-family: Verdana,Arial;
 }
 a:link{
 	color: #808080;
@@ -77,6 +78,7 @@ nav{
 	margin-top: 10px; 
 	background-color: red;
 	margin-bottom: 10px;
+	border-top: 2px solid blue;
 }
 nav ul{
 	width: 100%;
@@ -102,6 +104,21 @@ nav ul li{
 	border: 1px solid #778899;
 	height: 250px;
 }
+
+.list{
+  clear: both;
+  font-size: 14px;
+  width: 80%;
+  height: 180px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 15px;
+
+}
+.list ul{
+	list-style: none;
+}
+
 .title{
 	float: left;
   	display: block;
@@ -121,13 +138,6 @@ nav ul li{
 	margin-right: 20px;
 	font-weight: bold;
 	clear: right;
-}
-.announcement ol {
-	font-size: 14px;
-	margin-left: 15px;
-}
-.announcement li{
-	margin-bottom: 10px;
 }
 
 .broadcast{
@@ -222,7 +232,7 @@ nav ul li{
 	border-bottom: 1px solid grey;
 }
 .agreement{
-	width: 30%;
+	width: 32%;
 	height: 206px;
 	/*background-color: orange;*/
 	float: left;
@@ -237,7 +247,7 @@ nav ul li{
 	margin-bottom: 10px;
 }
 .nav{
-	width: 24%;
+	width: 28%;
 	float: left;
 	border: 1px solid #778899;
 	margin: 20px 0px 10px 35px;
@@ -252,7 +262,7 @@ nav ul li{
 
 }
 .statement{
-	width: 38%;
+	width: 32%;
 	float: left;
 	clear: right;
 	margin: 20px 0px 5px 28px;
@@ -272,7 +282,7 @@ nav ul li{
 }
 
 .article{
-	width: 30%;
+	width: 32%;
 	height: 176px;
 	float: left;
 	border: 1px solid #778899;
@@ -289,7 +299,7 @@ nav ul li{
 
 
 .dynamic{
-	width: 30%;
+	width: 28%;
 	height: 176px;
 	float: left;
 	border: 1px solid #778899;
@@ -307,7 +317,7 @@ nav ul li{
 	width: 32%;
 	height: 176px;
 	float: left;
-	margin: 10px 0px 0px 26px;
+	margin: 10px 0px 0px 28px;
 	border: 1px solid #778899;
 }
 .link_head{
@@ -318,7 +328,8 @@ nav ul li{
 	padding: 0px 5px;
 	float: left;
 	clear: right;
-	/*line-height: 180px;*/
+	/*margin-top: */
+	line-height: 42px;
 }
 .friend_link ul{
 	/*float: left;*/

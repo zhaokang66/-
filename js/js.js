@@ -1,3 +1,28 @@
+window.onload=roll;
+function roll(){
+var ul1=document.getElementById("ul1");
+var ul2=document.getElementById("ul2");
+var box=document.getElementById("box");
+ul2.innerHTML=ul1.innerHTML;
+box.scrollTop = 0;
+var timer=setInterval(rollStart,50);
+box.onmouseover=function(){
+clearInterval(timer)
+}
+box.onmouseout=function(){
+timer=setInterval(rollStart,50);
+}
+
+
+}
+function rollStart(){
+if (box.scrollTop>=ul1.scrollHeight) {//scrollTop属性既是scroll最上端和box的距离
+box.scrollTop=0;
+}else{
+box.scrollTop++;
+}
+}
+
 var wrap = document.getElementById('wrap');
       var content = document.getElementById('content');
       var tips = document.getElementById('tips');
